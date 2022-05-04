@@ -2,6 +2,8 @@
 
 This demo shows how users can create a Flask server in Cloud Run to run document translation jobs. A Cloud Function is triggered when the job is completed.
 
+This is not production code!!!
+
 ## Setup
 
 ### Setting up credentials
