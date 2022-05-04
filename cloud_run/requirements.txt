@@ -1,0 +1,5 @@
+google-cloud-translate
+Flask
+gunicorn==20.1.0
+google-cloud-storage
+python-dotenv
