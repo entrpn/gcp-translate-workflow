@@ -93,7 +93,7 @@ gcloud functions deploy translate_workflow --runtime python38 --trigger-resource
 ## Running a translation job.
 
 1. Upload a file you want translated to a GCS bucket. 
-1. Create an output bucket where files will land after the translation is finished. **Make a note of this bucket as it will be used later when we deploy a cloud function to monitor job completion.**
+1. Use the output bucket that is being observed by the cloud function.
 1. Modify the json message so that `input_path` points to the file you want translated and `output_path` to the bucket where the file will land after is finished. Also change the `from_language_code` and `to_language_code` to the languages you've like. Language codes can be found [here](https://cloud.google.com/translate/docs/languages).
 
     ```bash
